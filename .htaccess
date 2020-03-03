@@ -1,0 +1,28 @@
+RewriteEngine on
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule ^(.*)$ index.php?url=$1 [QSA,L]
+
+#--------------------------------------------------
+# Règles de réécriture d'URL :
+#--------------------------------------------------
+
+RewriteRule ^accueil$      index.php [L]
+RewriteRule ^connexion$    connexion.php [L]
+RewriteRule ^inscription$  inscription.php [L]
+RewriteRule ^mode-emploi$  mode-emploi.php [L]
+RewriteRule ^philosophie$  philosophie.php [L]
+RewriteRule ^partenaires$  partenaires.php [L]
+RewriteRule ^charte$       charte.php [L]
+RewriteRule ^contact$      contact.php [L]
+RewriteRule ^profil$       profil.php [L]
+RewriteRule ^charte-inscription$       charte-inscription.php [L]
+RewriteRule ^questionnaire$     questionnaire.php [L]
+RewriteRule ^nouveau-trajet$    nouveau-trajet.php [L]
+RewriteRule ^resultat-trajet$   resultat-trajet.php [L]
+#RewriteRule ^trajet$       trajet.php [L]
+
+#--------------------------------------------------
+# Pages d'erreurs :
+#--------------------------------------------------
+
+ErrorDocument 404 /404.php
