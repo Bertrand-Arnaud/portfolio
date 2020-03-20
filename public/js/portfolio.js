@@ -109,6 +109,66 @@ particlesJS('sideNav',
   }
 );
 
+class Navigation {
+  constructor() {
+    this.datas = [];
+		this.currentIndex = 0;
+	}
+	
+	push(data) {
+    this.datas.push(data)
+    this.currentIndex = this.datas.length - 1;
+    this.updateUI();
+	}
+	
+	prev() {
+    if (this.currentIndex > 0 && this.datas.length > 1)
+    {
+      this.currentIndex--;
+      $(".modal-body").html(this.datas[this.currentIndex]);
+      this.updateUI();
+    }
+  }
+  
+  next() {
+    if (this.currentIndex < this.datas.length && this.datas.length > 1) {
+      this.currentIndex++;
+      $(".modal-body").html(this.datas[this.currentIndex]);
+      this.updateUI();
+    }
+  }
+  
+  updateUI() {
+    if (this.datas.length < 2) {
+      $("#prevButton").prop("disabled", true);
+      $("#nextButton").prop("disabled", true);
+    }
+    else {
+      if (this.currentIndex == 0) {
+        $("#prevButton").prop("disabled", true);
+        $("#nextButton").prop("disabled", false);
+      }
+      else if (this.currentIndex == this.datas.length -1) {
+        $("#prevButton").prop("disabled", false);
+        $("#nextButton").prop("disabled", true);
+      }
+      else
+      {
+        $("#prevButton").prop("disabled", true);
+        $("#nextButton").prop("disabled", true);
+      }
+    }
+  }
+
+  clear() {
+    this.datas = [];
+    this.currentIndex = 0;
+    this.updateUI();
+  }
+}
+
+const modalNavigation = new Navigation();
+
 function openProject(projectID)
 {
 	console.log("Open project with id " + projectID);
@@ -121,17 +181,14 @@ function openProject(projectID)
 					"id": projectID,
 					"isAJAX" : "true"
 				  },
-			dataType: "JSON"
+			dataType: "html"
 		}).done(function(data)
 		{
 			if (data != null)
 			{
-				let parsed_data = JSON.parse(data);
-				console.log(parsed_data);
-				console.log(parsed_data.nom);
-				console.log(parsed_data.description);
-				$("#myModal").modal("toggle");
-				
+				$("#myModal").modal("show");
+				$(".modal-body").html(data);
+				modalNavigation.push(data);
 			}
 			else
 			{
@@ -155,17 +212,14 @@ function openSkill(skillID)
 					"id": skillID,
 					"isAJAX" : "true"
 				  },
-			dataType: "JSON"
+			dataType: "html"
 		}).done(function(data)
 		{
 			if (data != null)
 			{
-				let parsed_data = JSON.parse(data);
-				console.log(parsed_data);
-				console.log(parsed_data.nom);
-				console.log(parsed_data.description);
-				$("#myModal").modal("toggle");
-				
+        $("#myModal").modal("show");
+        $(".modal-body").html(data);
+        modalNavigation.push(data);
 			}
 			else
 			{
@@ -177,17 +231,15 @@ function openSkill(skillID)
 		});
 }
 
-class Navigation {
-	constructor() {
-		this.datas = [];
-		this.currentIndex = 0;
-	}
-	
-	push(data) {
-		this.datas.push(data)
-	}
-	
-	prev() {
-		if (this.currentIndex > 0 && this.datas.count)
-	}
+function OnPressPrevButton() {
+  console.log("prev");
+  modalNavigation.prev();
 }
+
+function OnPressNextButton() {
+  modalNavigation.next();
+}
+
+$('#myModal').on('hidden.bs.modal', function (e) {
+  modalNavigation.clear();
+})

@@ -17,7 +17,28 @@ $GLOBALS["SKILLS_PATH"] = dirname(__FILE__) . "/data/skills/";
 
 $router->get('/', function() 
 {
-	include_once("./public/index.html");
+	$projects_html = '<div class="row">';
+	$i = 0;
+	foreach(scandir($GLOBALS["PROJECT_PATH"],) as $file)
+	{
+		if (strpos($file, ".json"))
+		{
+			$project = file_get_contents($GLOBALS["PROJECT_PATH"] . $file);
+			$project = json_decode($project, true);
+			$fileNameExploded = explode('.', $file);
+			$project["id"] = $fileNameExploded[0];
+			$project["brief"] = substr($project["le_projet"], 0, 120) . "...";
+			
+			$projects_html .= Inc::html("public/html/project_component.php", $project);
+			if ($i % 2 == 1)
+			{
+				$projects_html .= '</div><br/><div class="row">';
+			}
+		}
+		$i++;
+	}
+	$projects_html .= "</div>";
+	include_once("./public/html/index.php");
 });
 
 $router->post('/get_project', function() 
@@ -30,7 +51,9 @@ $router->post('/get_project', function()
 			if ($file == $fileName)
 			{
 				$project = file_get_contents($GLOBALS["PROJECT_PATH"] . $file);
-				echo json_encode($project);
+				$project = json_decode($project, true);
+				$html = Inc::html("public/html/project.php", $project);
+				echo $html;
 			}
 		}
 	}
@@ -47,7 +70,9 @@ $router->post('/get_skill', function()
 			if ($file == $fileName)
 			{
 				$skill = file_get_contents($GLOBALS["SKILLS_PATH"] . $file);
-				echo json_encode($skill);
+				$skill = json_decode($skill, true);
+				$html = Inc::html("public/html/skill.php", $skill);
+				echo $html;
 			}
 		}
 	}

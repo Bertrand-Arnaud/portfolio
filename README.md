@@ -1,5 +1,3 @@
-# Covoit'Santé
+# Portfolio - Bertrand ARNAUD
 
-<em>Covoit'Santé</em> est une platforme de covoiturage pour des trajets vers ou en provenance des établissements de santé.
-
-C'est un service gratuit pour les usagers de la route (covoitureurs et covoiturés) en collaboration avec les établissements de santé signataires.
+<em>Portfolio - Bertrand ARNAUD</em> est le site web pour le portfolio de Bertrand ARNAUD, codé en PHP. Le visuel vient du template bootstrap https://startbootstrap.com/themes/resume/ que j'ai ensuite adapté à mes besoins pour réaliser mon propre portfolio.

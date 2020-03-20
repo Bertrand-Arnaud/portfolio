@@ -8,7 +8,7 @@
   <meta name="description" content="">
   <meta name="author" content="">
 
-  <title>Resume - Start Bootstrap Theme</title>
+  <title>Bertrand ARNAUD - AR Developer</title>
 
   <!-- Bootstrap core CSS -->
   <link href="./public/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -46,13 +46,13 @@
           <a class="nav-link js-scroll-trigger" href="#a-propos">A propos de moi</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link js-scroll-trigger" href="#parcours">Parcours</a>
-        </li>
-        <li class="nav-item">
           <a class="nav-link js-scroll-trigger" href="#competences">Compétences</a>
         </li>
         <li class="nav-item">
           <a class="nav-link js-scroll-trigger" href="#projets">Projets</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link js-scroll-trigger" href="#parcours">Parcours</a>
         </li>
         <li class="nav-item">
           <a class="nav-link js-scroll-trigger" href="#temoignages">Témoignages</a>
@@ -62,7 +62,6 @@
   </nav>
 
   <div class="container-fluid p-0">
-
     <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="a-propos">
       <div class="w-100">
         <h1 class="mb-0">Bertrand
@@ -71,7 +70,11 @@
         <div class="subheading mb-5">Toulouse
           <a href="mailto:b.arnaud@intech-sud.fr">b.arnaud@intech-sud.fr</a>
         </div>
-        <p class="lead mb-5">{{Brève description de moi}}</p>
+        <p class="lead mb-5">Alternant en développement logiciel, j'exerce et développe mes compétences au sein de la branche avionique du groupe Thales. En parallèle, je poursuis mon cursus étudiant en 5ème année à IN'TECH Sud.</p> 
+
+        <p class="lead mb-5 text-justify">Passionné par l'innovation, je suis animé par différents sujets et technologies tels que la réalité augmentée, Unity3D, l'intelligence artificielle ou  encore la cybersécurité.
+          C'est notamment dans le domaine de la réalité augmentée et mixte et virtuelle que je souhaite me spécialiser et poursuivre ma carrière afin de devenir expert technique XR ou bien chef de projet XR.
+        </p>
         <div class="social-icons">
           <a href="#">
             <i class="fab fa-linkedin-in"></i>
@@ -82,10 +85,45 @@
           <a href="#">
             <i class="fab fa-twitter"></i>
           </a>
-          <a href="#">
-            <i class="fab fa-facebook-f"></i>
-          </a>
         </div>
+      </div>
+    </section>
+
+    <hr class="m-0">
+
+    <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="competences">
+      <div class="w-100">
+        <h2 class="mb-5">Compétences</h2>
+        <div class="subheading mb-3">Compétences techniques</div>
+        <div class="container">
+          <ul class="list-inline">
+            <li><button onclick="openSkill('csharp')" class="btn btn-inline btn-custom">C#</button></li>
+            <li><button onclick="openSkill('unity')" class="btn btn-custom">Unity</button></li>
+            <li><button onclick="openSkill('git')" class="btn btn-custom">Git</button></li>
+            <li><button onclick="openSkill('javascript')" class="btn btn-custom">JavaScript</button></li>
+            <li><button onclick="openSkill('database')" class="btn btn-custom">Base de données</button></li>
+            <li><button onclick="openSkill('web')" class="btn btn-custom">PHP/HTML/CSS</button></li>
+          </ul>
+        </div>
+        <div class="subheading mb-3">Compétences humaines</div>
+        <div class="container">
+          <ul class="list-inline">
+            <li><button onclick="openSkill('communication')" class="btn btn-custom">Communication</button></li>
+            <li><button onclick="openSkill('autonomie')" class="btn btn-custom">Autonomie</button></li>
+            <li><button onclick="openSkill('innovation')" class="btn btn-custom">Innovation</button></li>
+            <li><button onclick="openSkill('polyvalence')" class="btn btn-custom">Polyvalence</button></li>
+            <li><button onclick="openSkill('teamwork')" class="btn btn-custom">Travail d'équipe</button></li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <hr class="m-0">
+
+    <section class="resume-section p-3 p-lg-5 d-flex justify-content-center" id="projets">
+      <div class="w-100">
+        <h2 class="mb-5">Projets</h2>
+        <?php echo $projects_html;?>
       </div>
     </section>
 
@@ -100,8 +138,6 @@
             <h3 class="mb-0">IN'TECH Sud</h3>
             <div class="subheading mb-3">Titre RNCP d'expert en Ingénierie du logiciel</div>
             <div>Apprentissage de l'informatique grâce à une pédagogie par projet : Projet informatique en relation directe avec des professionnels - Projet de formation humaine afin de développer des compétences telles que la communication, l'organisation d’événements ou encore la gestion de budget.</div>
-            <br>
-            <button class="btn btn-custom" onclick="openProject(1)">En savoir plus</button>
           </div>
           <div class="resume-date text-md-right">
             <span class="text-primary">Septembre 2015 - Septembre 2020</span>
@@ -117,8 +153,6 @@
               <li>Outil de conception et présentation des suites avioniques en 2D et 3D.</li>
               <li>Environnement de simulation 3D pour hélicoptères et drones.</li>
             </ul>
-            <br>
-            <button class="btn btn-custom" onclick="openProject(2)">En savoir plus</button>
           </div>
           <div class="resume-date text-md-right">
             <span class="text-primary">Septembre 2018 - Septembre 2020</span>
@@ -126,114 +160,6 @@
         </div>
 
       </div>
-    </section>
-
-    <hr class="m-0">
-
-    <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="competences">
-      <div class="w-100">
-        <h2 class="mb-5">Compétences</h2>
-        <div class="subheading mb-3">Compétences techniques</div>
-        <!-- Default switch -->
-        <p>Icones</p>
-        <div class="custom-control custom-switch">
-          
-          <input type="checkbox" class="custom-control-input" id="customSwitches">
-          <label class="custom-control-label" for="customSwitches">Texte</label>
-        </div>
-        <ul class="list-inline dev-icons">
-          <li onclick="openSkill(1)" class="list-inline-item">
-            <i class="fab fa-html5"></i>
-          </li>
-          <li onclick="openSkill(2)" class="list-inline-item">
-            <i class="fab fa-css3-alt"></i>
-          </li>
-          <li onclick="openSkill(3)" class="list-inline-item">
-            <i class="fab fa-js-square"></i>
-          </li>
-          <li class="list-inline-item">
-            <i class="fab fa-node-js"></i>
-          </li>
-          <li class="list-inline-item">
-            <i class="fab fa-php"></i>
-          </li>
-          <li class="list-inline-item">
-            <i class="fab fa-git"></i>
-          </li>
-          <li class="list-inline-item">
-            <i class="fab fa-lightbulb"></i>
-          </li>
-        </ul>
-        <div class="subheading mb-3">Compétences humaines</div>
-        <ul class="list-inline dev-icons">
-          <li class="list-inline-item">
-            <i class="fab fa-battery-full"></i>
-          </li>
-          <li class="list-inline-item">
-            <i class="fab fa-lightbulb"></i>
-          </li>          
-          <li class="list-inline-item">
-            <i class="fab fa-users-cog"></i>
-          </li>
-          <li class="list-inline-item">
-            <i class="fab fa-running"></i>
-          </li>
-        </ul>
-      </div>
-    </section>
-
-    <hr class="m-0">
-
-    <section class="resume-section p-3 p-lg-5 d-flex justify-content-center" id="projets">
-      <div class="w-100">
-        <h2 class="mb-5">Experience</h2>
-
-        <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
-          <div class="resume-content">
-            <h3 class="mb-0">Senior Web Developer</h3>
-            <div class="subheading mb-3">Intelitec Solutions</div>
-            <p>Bring to the table win-win survival strategies to ensure proactive domination. At the end of the day, going forward, a new normal that has evolved from generation X is on the runway heading towards a streamlined cloud solution. User generated content in real-time will have multiple touchpoints for offshoring.</p>
-          </div>
-          <div class="resume-date text-md-right">
-            <span class="text-primary">March 2013 - Present</span>
-          </div>
-        </div>
-
-        <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
-          <div class="resume-content">
-            <h3 class="mb-0">Web Developer</h3>
-            <div class="subheading mb-3">Intelitec Solutions</div>
-            <p>Capitalize on low hanging fruit to identify a ballpark value added activity to beta test. Override the digital divide with additional clickthroughs from DevOps. Nanotechnology immersion along the information highway will close the loop on focusing solely on the bottom line.</p>
-          </div>
-          <div class="resume-date text-md-right">
-            <span class="text-primary">December 2011 - March 2013</span>
-          </div>
-        </div>
-
-        <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
-          <div class="resume-content">
-            <h3 class="mb-0">Junior Web Designer</h3>
-            <div class="subheading mb-3">Shout! Media Productions</div>
-            <p>Podcasting operational change management inside of workflows to establish a framework. Taking seamless key performance indicators offline to maximise the long tail. Keeping your eye on the ball while performing a deep dive on the start-up mentality to derive convergence on cross-platform integration.</p>
-          </div>
-          <div class="resume-date text-md-right">
-            <span class="text-primary">July 2010 - December 2011</span>
-          </div>
-        </div>
-
-        <div class="resume-item d-flex flex-column flex-md-row justify-content-between">
-          <div class="resume-content">
-            <h3 class="mb-0">Web Design Intern</h3>
-            <div class="subheading mb-3">Shout! Media Productions</div>
-            <p>Collaboratively administrate empowered markets via plug-and-play networks. Dynamically procrastinate B2C users after installed base benefits. Dramatically visualize customer directed convergence without revolutionary ROI.</p>
-          </div>
-          <div class="resume-date text-md-right">
-            <span class="text-primary">September 2008 - June 2010</span>
-          </div>
-        </div>
-
-      </div>
-
     </section>
 
     <hr class="m-0">
@@ -254,8 +180,8 @@
 			<div class="modal-header">
 		  <!-- Modal Header -->
 				<div class="btn-group">
-				<button class="btn btn-primary" type="button" onclick="OnPressPrevButton" disabled><</button></button>
-				<button class="btn btn-primary" type="button" onclick="OnPressNextButton" disabled>></button></button>
+				<button id="prevButton" class="btn btn-primary" type="button" onclick="OnPressPrevButton()" disabled><</button></button>
+				<button id="nextButton" class="btn btn-primary" type="button" onclick="OnPressNextButton()" disabled>></button></button>
 				</div>
 				<!--<button type="button" class="close btn-right" data-dismiss="modal">&times;</button>-->
 			</div>

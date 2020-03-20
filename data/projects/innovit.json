@@ -1,0 +1,29 @@
+{
+	"nom" : "INNOV'IT",
+	"breve_description" : "",
+	"le_projet":"Le projet INNOV'IT est un projet de formation humaine qui avait pour but d'aider les entreprises et clusters du Lot-et-Garonne dans leur transition numérique en apportant des innovations technologiques qui correspondent à leurs besoins. Pour identifier les dernières nouveautés en matière de numérique, nous nous sommes rendus au festival Futur en Seine à Paris du 8 au 10 juin 2017. Une fois de retour, nous avons rassemblé toutes nos recherches dans un rapport d'analyse personnalisé pour chacun de nos sponsors. Dans le but de nous rendre au festival nous avons établi un budget prévisionnel et réalisé un dossier de sponsoring nous permettant de démarcher les entreprises souhaitant financer notre projet. Après de nombreux mails et appels téléphoniques, nous avons trouvé quatre sponsors afin de financer notre déplacement : <ul><li>De Sangosse</li> <li>JeChange.fr</li> <li>Alain Tingaud Innovation</li> <li>ETIC 47</li> </ul> A eux quatre, ils nous ont apporté une aide financière à hauteur de 1850€, couvrant ainsi les frais de transport, de logement, de nourriture et autres ! Sur place, nous avons pu rencontrer une cinquantaine de start-ups et entreprises proposant des solutions comme la maintenance prédictive, l'aide au recrutement, les chatbots, la formation en VR... Également, nous avons assisté à des conférences traitant des sujets comme l'intelligence artificielle par Watson de IBM ou bien les voitures autonomes. Une fois notre dossier rendu, les entreprises se sont montrées très satisfaite par celui-ci et ont même pu contacter certaines des start-ups rencontrées pour échanger avec elles. ",
+	"ma_contribution":"En équipe avec mes 3 autres étudiants de ma promotion, j'ai pu contribué à : <ul><li>Réaliser le dossier de sponsoring.</li><li>Calculer le budget prévisionnel.</li><li>Contacter et démarcher les entreprises du Lot-et-Garonne.</li><li>Préparer et organiser le déplacement au festival.</li><li>Rencontrer les start-ups innovantes présentes au festival et assister aux différentes conférences.</li><li>Rédiger le document d'analyse sur les technologies découvertes et les start-ups.</li></ul>",
+	"bilan":"",
+	"competences" : [
+		{
+			"id": "communication",
+			"name":"Communication"
+		}, 
+		{
+			"id": "autonomie",
+			"name": "Autonomie"
+		},
+		{
+			"id":"innovation",
+			"name":"Innovation"
+		},
+		{
+			 "id":"polyvalence",
+			 "name":"Polyvalence"
+		},
+		{
+			"id":"teamwork",
+			"name":"Travail d'équipe"
+		}
+	]
+}
