@@ -1,0 +1,37 @@
+{
+	"nom" : "Simulation Hélicoptère",
+	"breve_description" : "",
+	"le_projet":"Durant mes deux ans d'alternance, j'ai intégré au titre du projet FACETT le Hub Innovation du site de Thales Avionics Toulouse. En plus de travailler sur ce premier projet, j'ai eu l'occasion d'aider les équipes innovation dans leur projet. En effet, ceux-ci découvraient Unity pour la première fois dans le cadre de la réalisation d'une simulation pour hélicoptère. Grâce à mes connaissances et mon expérience avec cette technologie, j'ai pu les accompagner au rythme de 1 jour par semaine dans la structuration du projet, les bonnes pratiques Unity ou encore les orientations techniques. ",
+	"ma_contribution":"<ul><li>Implémentation de nouvelles fonctionnalités.</li><li>Refactoring et optimisation de code.</li><li>Mise en place d’un environnement Git avec Unity.</li></ul>",
+	"bilan":"",
+	"competences" : [
+		{
+			"id": "unity",
+			"name":"Unity 3D"
+		}, 
+		{
+			"id": "csharp",
+			"name": "C#"
+		},	
+		{
+			"id": "git",
+			"name": "Git"
+		},
+		{
+			"id":"communication",
+			"name":"Communication"
+		},
+		{
+			"id":"autonomie",
+			"name":"Autonomie"
+		},
+		{
+			"id":"innovation",
+			"name":"Innovation"
+		},
+		{
+			"id":"teamwork",
+			"name":"Travail d'équipe"
+		}
+	]
+}

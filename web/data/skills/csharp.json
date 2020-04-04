@@ -1,0 +1,20 @@
+{
+    "nom" : "C#",
+    "definition" : "C# est un langage de programmation orientée objet conçu par Microsoft en 2002. Fortement typé, il s’agit d’un dérivé du C++ avec des fonctionnalités simplifiées comme la gestion automatique de la mémoire grâce au garbage collector ou la suppression des pointeurs (tout de même accessibles en mode unsafe). Il s’agit d’un langage multiplateforme de développer des applications web, mobiles et desktop, des web services ou encore des bibliothèques de classes. Le langage C# est bâti pour fonctionner avec la plateforme de développement .NET qui met à disposition une pile technologique d’outils à disposition des développeurs. D’autres langages s’appuient dessus comme le Visual Basic ou le F#.",
+    "comment" : "Lors de ma scolarité et de mes expériences en entreprises, j’ai pu appréhender le langage C# sous différentes de ses facettes. En effet, c’est en semestre 3 que j’ai commencé à l’utilisé lors des projets informatiques pour la création d’applications WPF : applications desktop avec C#. Cela m’as permis d’appréhender et de maitriser les bases de la programmation orientée objet, et diverses fonctionnalités du langage : interfaces, connexions SQL, manipulation de fichiers…<br/>Suite à cela, j’ai réutiliser C# dans le cadre de mon projet de semestre 5 UPSA Vision. Lors de ce projet, j’ai vu comment le langage s’interface avec le moteur de jeu Unity et j’ai consolidé les bases acquises précédemment avec des nouvelles connaissances comme l’appel aux fonctionnalités Windows de sélection de fichier/dossier.<br/>C’est au cours de mon stage et de mes deux ans en alternance que j’ai vraiment progressé sur le langage C# et son interfaçage avec Unity. En effet, j’ai durant ces deux ans et demi travaillé sur le projet FACETT au sein du groupe Thales à Toulouse. J’ai ainsi énormément progressé dans ma maîtrise du langage, apprenant à manipuler la librairie LINQ, les expressions lambda, les types delegate, différents design patterns (singleton, observer, command…), les fichiers XML et bien d’autres encore ! Tout cela m’a permis de vraiment avancer sur le projet en entreprise et de mettre en avant mes compétences auprès de mes pairs.<br/>Également, lors de mes cours à IN’TECH dans ma période d’alternance, j’ai pu suivre une formation avancée en Xamarin, le framework C# permettant le développement d’applications mobiles. L’avantage du code Xamarin est qu’il permet de développer des applications natives Android, IOS et UWP (Windows) avec le même code pour les trois ; très peu de code spécifique à la plateforme est nécessaire. De part cette formation, j’ai découvert une nouvelle façon d’utiliser le langage C# et j’ai renforcé mes connaissances avec le modèle MVVM et l’utilisation avancée des évènements.",
+    "pourquoi" : "Aujourd’hui, de par mes différentes expériences avec C#, je possède une très bonne connaissance du langage et de son fonctionnement. J’ai pu voir différentes manières de l’utiliser pour des résultats variés et adaptés au besoin. Souhaitant continuer ma carrière en tant qu’ingénieur développement Unity, c’est tout naturellement que je vais continuer à consolider cette compétence.",
+    "projects" : [
+		{
+			"id": "upsavision",
+			"name":"UPSA Vision"
+		}, 
+		{
+			"id": "facett",
+			"name": "FACETT"
+		},
+		{
+			"id":"simu",
+			"name":"Simulation Hélicoptère"
+		}
+	]
+}
