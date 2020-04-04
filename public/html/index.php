@@ -94,25 +94,27 @@
     <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="competences">
       <div class="w-100">
         <h2 class="mb-5">Compétences</h2>
+        <p>Tout au long de mes cinq ans de cursus, à la fois à l'école, lors de stage ou encore en alternance, j'ai développé de nombreuses compétences me permettant d'accomplir mon projet professionnel. 
+        Que ce soit des compétences purement techniques ou bien des compétences transverses, Bla bla bla... </p>
         <div class="subheading mb-3">Compétences techniques</div>
         <div class="container">
           <ul class="list-inline">
-            <li><button onclick="openSkill('csharp')" class="btn btn-inline btn-custom">C#</button></li>
-            <li><button onclick="openSkill('unity')" class="btn btn-custom">Unity</button></li>
-            <li><button onclick="openSkill('git')" class="btn btn-custom">Git</button></li>
-            <li><button onclick="openSkill('javascript')" class="btn btn-custom">JavaScript</button></li>
-            <li><button onclick="openSkill('database')" class="btn btn-custom">Base de données</button></li>
-            <li><button onclick="openSkill('web')" class="btn btn-custom">PHP/HTML/CSS</button></li>
+            <li class="list-inline-item"><button onclick="openSkill('csharp')" class="btn btn-inline btn-custom">C#</button></li>
+            <li class="list-inline-item"><button onclick="openSkill('unity')" class="btn btn-custom">Unity</button></li>
+            <li class="list-inline-item"><button onclick="openSkill('git')" class="btn btn-custom">Git</button></li>
+            <li class="list-inline-item"><button onclick="openSkill('javascript')" class="btn btn-custom">JavaScript</button></li>
+            <li class="list-inline-item"><button onclick="openSkill('database')" class="btn btn-custom">Base de données</button></li>
+            <li class="list-inline-item"><button onclick="openSkill('web')" class="btn btn-custom">PHP/HTML/CSS</button></li>
           </ul>
         </div>
-        <div class="subheading mb-3">Compétences humaines</div>
+        <div class="subheading mb-3">Compétences transverses</div>
         <div class="container">
           <ul class="list-inline">
-            <li><button onclick="openSkill('communication')" class="btn btn-custom">Communication</button></li>
-            <li><button onclick="openSkill('autonomie')" class="btn btn-custom">Autonomie</button></li>
-            <li><button onclick="openSkill('innovation')" class="btn btn-custom">Innovation</button></li>
-            <li><button onclick="openSkill('polyvalence')" class="btn btn-custom">Polyvalence</button></li>
-            <li><button onclick="openSkill('teamwork')" class="btn btn-custom">Travail d'équipe</button></li>
+            <li class="list-inline-item"><button onclick="openSkill('communication')" class="btn btn-custom">Communication</button></li>
+            <li class="list-inline-item"><button onclick="openSkill('autonomie')" class="btn btn-custom">Autonomie</button></li>
+            <li class="list-inline-item"><button onclick="openSkill('innovation')" class="btn btn-custom">Innovation</button></li>
+            <li class="list-inline-item"><button onclick="openSkill('polyvalence')" class="btn btn-custom">Polyvalence</button></li>
+            <li class="list-inline-item"><button onclick="openSkill('teamwork')" class="btn btn-custom">Travail d'équipe</button></li>
           </ul>
         </div>
       </div>

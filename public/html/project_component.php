@@ -1,4 +1,4 @@
-<div class="col-sm-6">
+<div class="<?php echo $p["col"];?>">
 	<div class="card">
 		<div class="card-header bg-custom"><h5 class="text-white"><?php echo $p["nom"]; ?></h5></div>
 		<div class="card-body">

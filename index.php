@@ -19,7 +19,8 @@ $router->get('/', function()
 {
 	$projects_html = '<div class="row">';
 	$i = 0;
-	foreach(scandir($GLOBALS["PROJECT_PATH"],) as $file)
+	$projects = scandir($GLOBALS["PROJECT_PATH"]);
+	foreach($projects as $file)
 	{
 		if (strpos($file, ".json"))
 		{
@@ -28,7 +29,7 @@ $router->get('/', function()
 			$fileNameExploded = explode('.', $file);
 			$project["id"] = $fileNameExploded[0];
 			$project["brief"] = substr($project["le_projet"], 0, 120) . "...";
-			
+			$project["col"] = sizeof($projects) - 1 == $i ? "col-xs-12 col-sm-12" : "col-sm-6 col-xs-12";
 			$projects_html .= Inc::html("public/html/project_component.php", $project);
 			if ($i % 2 == 1)
 			{
