@@ -154,8 +154,8 @@ class Navigation {
       }
       else
       {
-        $("#prevButton").prop("disabled", true);
-        $("#nextButton").prop("disabled", true);
+        $("#prevButton").prop("disabled", false);
+        $("#nextButton").prop("disabled", false);
       }
     }
   }
@@ -196,7 +196,7 @@ function openProject(projectID)
 			}
 		}).fail(function(jqXHR)
 		{
-            console.log("Failed");
+      console.log("Failed");
 		});
 }
 
@@ -232,7 +232,6 @@ function openSkill(skillID)
 }
 
 function OnPressPrevButton() {
-  console.log("prev");
   modalNavigation.prev();
 }
 
