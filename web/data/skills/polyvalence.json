@@ -1,0 +1,24 @@
+{
+    "nom" : "Polyvalence",
+    "definition" : "La polyvalence est la capacité à être compétent dans plusieurs domaines, mais pas que. En effet, à mon sens être polyvalent signifie aussi qu'on est capable de s'approprier rapidement de nouvelles technologies et de les utiliser pour arriver à son objectif. Il est utile d'être polyvalent au cours de certains projets lorsque ceux-ci couvrent un éventail large de technologies afin d'en maitriser les différents aspects. C'est une capacité que j'ai toujours eu et que je continue à perfectionner en m'aventurant sur de nouveaux domaines et technologies.",
+    "comment" : "Ainsi au cours de mes projets à IN'TECH j'ai développé cette capacité à appréhender plusieurs nouveaux concepts afin de les mettre en pratique. Ce fût le cas lors des projets de formation humaine où il fallait réaliser plusieurs tâches diverses en parallèle. Par exemple au cours du projet INNOV'IT, j'ai pu participer à la gestion du budget, la réalisation des supports graphiques, la rédaction du dossier de sponsoring ou bien encore le démarchage des sponsors. Riche d'apprentissage, j'ai énormément évolué en prenant part à ces projets permettant de mener de front divers objectifs.",
+    "pourquoi" : "Etre polyvalent est une aptitude nécessaire dans le métier de développeur 3D. En effet, il faut à la fois maitriser les aspects de programmation, de 3D (objets 3D, matériaux, textures, lumières...) et d'intégration entre les deux. Il est donc primordial pour moi d'avoir un seuil de connaissances et de maitrise minimum dans tous ces domaines afin d'effectuer un travail de qualité tout le long de la chaîne de développement.",
+    "projects" : [
+		{
+			"id": "communipong",
+			"name":"Communi'pong"
+		}, 
+		{
+			"id": "facett",
+			"name": "FACETT"
+		},
+		{
+			"id":"medikit47",
+			"name":"Médikit47"
+		},
+		{
+			"id":"innovit",
+			"name":"INNOV'IT"
+		}
+	]
+}
