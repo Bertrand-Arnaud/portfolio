@@ -8,7 +8,7 @@
   <meta name="description" content="">
   <meta name="author" content="">
 
-  <title>Bertrand ARNAUD - AR Developer</title>
+  <title>Bertrand ARNAUD - Ingénieur développement 3D</title>
 
   <!-- Bootstrap core CSS -->
   <link href="./public/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -19,6 +19,7 @@
   <link href="./public/vendor/fontawesome-free/css/all.min.css" rel="stylesheet">
   <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
 
+  <link rel="icon" href="./public/img/icon-5.png" type="image/gif" >
   <!-- Toggle Bootstrap -->
   <link href="./public/vendor/bootstrap-toggle/bootstrap2-toggle.min.css" rel="stylesheet">
 
@@ -73,17 +74,14 @@
         <p class="lead mb-5">Alternant en développement logiciel, j'exerce et développe mes compétences au sein de la branche avionique du groupe Thales. En parallèle, je poursuis mon cursus étudiant en 5ème année à IN'TECH Sud.</p> 
 
         <p class="lead mb-5 text-justify">Passionné par l'innovation, je suis animé par différents sujets et technologies tels que la réalité augmentée, Unity3D, l'intelligence artificielle ou  encore la cybersécurité.
-          C'est notamment dans le domaine de la réalité augmentée et mixte et virtuelle que je souhaite me spécialiser et poursuivre ma carrière afin de devenir expert technique XR ou bien chef de projet XR.
+          C'est notamment dans le domaine de la 3D que je souhaite poursuivre ma carrière en tant qu'ingénieur développement 3D. Je porte une attention toute particulière à la réalité augmentée, mixte et virtuelle, supports d'innovation qui permettent de laisser libre cours à sa créativité et à son innovation. A terme, j'ambitionne de devenir experts technique dans ces tehnologies ou bien chef de projet innovation/3D.
         </p>
         <div class="social-icons">
-          <a href="#">
+          <a href="https://www.linkedin.com/in/bertrand-arnaud-667b28b5/">
             <i class="fab fa-linkedin-in"></i>
           </a>
-          <a href="#">
+          <a href="https://github.com/Bertrand-Arnaud">
             <i class="fab fa-github"></i>
-          </a>
-          <a href="#">
-            <i class="fab fa-twitter"></i>
           </a>
         </div>
       </div>
@@ -95,7 +93,7 @@
       <div class="w-100">
         <h2 class="mb-5">Compétences</h2>
         <p>Tout au long de mes cinq ans de cursus, à la fois à l'école, lors de stage ou encore en alternance, j'ai développé de nombreuses compétences me permettant d'accomplir mon projet professionnel. 
-        Que ce soit des compétences purement techniques ou bien des compétences transverses, Bla bla bla... </p>
+        Que ce soit des compétences purement techniques ou bien des compétences transverses, ce bagage complet que je me suis créé et qui m'est propre est en adéquation avec mes choix de carrière afin de répondre aux besoins des entreprises.</p>
         <div class="subheading mb-3">Compétences techniques</div>
         <div class="container">
           <ul class="list-inline">

@@ -1,8 +1,8 @@
 {
-    "nom" : "Travail d'équipe",
-    "definition" : "Le travail d'équipe est l'aptitude à évoluer avec ses pairs en équipe pour mener un projet à bien. Cela ne se limite pas uniquement à savoir travailler ensemble mais aussi à cohabiter et s'intégrer au sein d'un groupe au sein duquel on va apporter son savoir",
-    "comment" : "Tout au long de mon parcours à IN'TECH j'ai pu évoluer en équipe du premier semestre au dernier. C'est en effet une des raisons pour laquelle j'ai souhaité rejoindre cette école, sa pédagogie par projet m'a réellement permis de développer ma capacité à travailler en équipe. Le fait d'évoluer en groupe de 3 à 9 étudiants sur des projets variés est un vrai atout pour apprendre à gérer les personalités de chacun et s'adapter en fonction. En outre, j'ai à plusieurs reprises eu le rôle de chef de projet, me donnant la possibilité d'apprendre à manager une équipe, répartir les tâches ou encore gérer les relations avec le commanditaire.",
-    "pourquoi" : "Savoir travailler en équipe est indispensable dans le monde de l'informatique. En effet, dans toutes les branches il est toujours nécessaire d'évoluer avec ses collaborateurs dans le but de mener à bien les projets. C'est donc une capacité indispensable pour mon parcours professionnel, quelle que soit la voie que je souhaite prendre.",
+    "nom" : "Autonomie",
+    "definition" : "Il s'agit là de la capacité à avancer seul sur un sujet sans avoir recours à l'aide d'autres personnes. C'est une qualité indispensable à un développeur pour se débrouiller seul lorsque l'on se retrouve bloqué sur une problématique.",
+    "comment" : "À de nombreuses reprises à IN'TECH j'ai dû faire preuve d'autonomie avec mes collègues étudiants afin de mener à bien nos projets. Bien que les encadrants étaient présents pour nous aider et nous orienter, il était aussi nécessaire d'apprendre à être autonome pour avancer rapidement et comprendre au mieux ce que nous réalisons. Au cours de mes expériences professionnelles également j'ai su faire preuve d'autonomie. En effet, lors d'un stage de deux mois au sein de l'entreprise UPSA, j'étais en total autonomie pour développer et mettre en place de A à Z june solution simplifiant et optimisant le traitement ainsi que l'analyse d'indicateurs. J'ai poursuivi l'apprentissage de cette caractéristique en stage puis en alternance au sien de THALES avec le projet FACETT que j'ai développé en autonomie complète avec mon tuteur.",
+    "pourquoi" : "C'est une compétence transverse qui est essentielle lorsque l'on souhaite travailler dans le domaine de l'innovation. En effet, très souvent il faut savoir faire preuve d'autonomie pour appréhender de nouveau concept et s'auto-former à de nouvelles technologies. C'est également un atout conséquent pour évoluer sur des projets où le travail d'équipe est moins important. Il est donc primordial de savoir allier les deux : autonomie et travail d'équipe pour faire carrière dans le domaine de la RA.",
     "projects" : [
 		{
 			"id": "upsavision",
@@ -19,14 +19,6 @@
 		{
 			"id":"covoitsante",
 			"name":"Covoit'santé"
-		},
-		{
-			"id":"medikit47",
-			"name":"Médikit47"
-		},
-		{
-			"id":"communipong",
-			"name":"Communi'pong"
 		},
 		{
 			"id":"innovit",
