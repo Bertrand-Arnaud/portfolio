@@ -100,9 +100,8 @@
             <li class="list-inline-item"><button onclick="openSkill('csharp')" class="btn btn-inline btn-custom">C#</button></li>
             <li class="list-inline-item"><button onclick="openSkill('unity')" class="btn btn-custom">Unity</button></li>
             <li class="list-inline-item"><button onclick="openSkill('git')" class="btn btn-custom">Git</button></li>
-            <li class="list-inline-item"><button onclick="openSkill('javascript')" class="btn btn-custom">JavaScript</button></li>
             <li class="list-inline-item"><button onclick="openSkill('database')" class="btn btn-custom">Base de données</button></li>
-            <li class="list-inline-item"><button onclick="openSkill('web')" class="btn btn-custom">PHP/HTML/CSS</button></li>
+            <li class="list-inline-item"><button onclick="openSkill('web')" class="btn btn-custom">Technologies Web</button></li>
           </ul>
         </div>
         <div class="subheading mb-3">Compétences transverses</div>
@@ -166,7 +165,7 @@
 
     <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="temoignages">
       <div class="w-100">
-        <h2 class="mb-5">Interests</h2>
+        <h2 class="mb-5">Témoignages</h2>
         <p>Apart from being a web developer, I enjoy most of my time being outdoors. In the winter, I am an avid skier and novice ice climber. During the warmer months here in Colorado, I enjoy mountain biking, free climbing, and kayaking.</p>
         <p class="mb-0">When forced indoors, I follow a number of sci-fi and fantasy genre movies and television shows, I am an aspiring chef, and I spend a large amount of my free time exploring the latest technology advancements in the front-end web development world.</p>
       </div>
