@@ -25,6 +25,8 @@
 
   <!-- Custom styles for this template -->
   <link href="./public/css/resume.css" rel="stylesheet">
+  <link href="./public/css/blockquotes.css" rel="stylesheet">
+  <link href="./public/css/timeline.css" rel="stylesheet">
 
 </head>
 
@@ -131,8 +133,59 @@
     <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="parcours">
       <div class="w-100">
         <h2 class="mb-5">Parcours</h2>
+        <div class="row">
+          <div class="col-sm ">
+            <h3 class="float-right">Parcours universitaire</h3>
+          </div>
+          <div class="col-sm">
+            <h3>Parcours professionnel</h3>
+          </div>
+        </div>
         <!-- Intégration Timeline -->
-        <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
+        <section class="timeline">
+          <ul>
+            <li class="right">
+              <div>
+                <time>2018-2020</time>Thales Avionics - Alternant développement logiciel Unity 3D.
+              </div>
+            </li>
+            <li class="right">
+              <div>
+                <time>2018</time>Thales Avionics - Stage de 6 mois développement logiciel Unity3D.
+              </div>
+            </li>
+
+            <li class="right">
+              <div>
+                <time>2017</time>UPSA Agen - Stage de deux mois développement solution informatique VBA.
+              </div>
+            </li>
+            <li class="left">
+              <div>
+                <time>2015-2020</time>IN'TECH Sud Agen. Apprentissage de l'informatique grâce à une pédagogie par projet : Projet informatique en relation directe avec des professionnels - Projet de formation humaine afin de développer des compétences telles que la communication, l'organisation d’événements ou encore la gestion de budget.
+              </div>
+            </li>
+            <li class="left">
+              <div>
+                <time>2015</time>Ecole 42 Paris - Participation à la piscine de Juillet 2015 - Apprentissage de la programmation en C (base et avancée), Linux et Git.
+              </div>
+            </li>
+            <li class="left">
+              <div>
+                <time>2012-2014</time>DUT Génie biologique option Industries Agroalimentaires et Biologiques.
+              </div>
+            </li>
+            <!--<li>
+              <div>
+                <time>1956</time> In mattis elit vitae odio posuere, nec maximus massa varius. Suspendisse varius volutpat mattis. Vestibulum id magna est.
+              </div>
+            </li>-->
+          </ul>
+        </section>
+
+
+
+        <!--<div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
           <div class="resume-content">
             <h3 class="mb-0">IN'TECH Sud</h3>
             <div class="subheading mb-3">Titre RNCP d'expert en Ingénierie du logiciel</div>
@@ -156,8 +209,7 @@
           <div class="resume-date text-md-right">
             <span class="text-primary">Septembre 2018 - Septembre 2020</span>
           </div>
-        </div>
-
+        </div>-->
       </div>
     </section>
 
@@ -166,8 +218,10 @@
     <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="temoignages">
       <div class="w-100">
         <h2 class="mb-5">Témoignages</h2>
-        <p>Apart from being a web developer, I enjoy most of my time being outdoors. In the winter, I am an avid skier and novice ice climber. During the warmer months here in Colorado, I enjoy mountain biking, free climbing, and kayaking.</p>
-        <p class="mb-0">When forced indoors, I follow a number of sci-fi and fantasy genre movies and television shows, I am an aspiring chef, and I spend a large amount of my free time exploring the latest technology advancements in the front-end web development world.</p>
+        <blockquote class="quote-card">
+          <p>Suspendisse dolor est, venenatis eu libero eget, eleifend fermentum mauris. Donec sit amet sem in lacus aliquet tincidunt eu a mi. Sed purus nibh, viverra eget tellus tristique, sollicitudin tincidunt metus. Vestibulum eget leo purus. In ultricies auctor odio a tincidunt. Donec lacinia posuere nisi non tempor. Maecenas facilisis dui eros. Proin mauris ligula, dapibus at laoreet et, faucibus molestie quam. Nunc vehicula lacus quam, a accumsan justo euismod id. Curabitur egestas lectus sed malesuada facilisis. Praesent quis porttitor sem. Aenean in ligula tortor. Nulla rutrum euismod diam, ac consequat nibh sollicitudin vel. Praesent tristique libero quis eros interdum, in pretium nibh convallis. Sed quis sapien interdum sem porta vulputate sed ac lacus. </p>
+          <cite>Bryce BILLIERE - Tuteur de stage et d'alternance Thales Avionics</cite>
+        </blockquote>
       </div>
     </section>
   </div>
@@ -213,6 +267,7 @@
   <script src="./public/js/resume.min.js"></script>
   <script src="./public/js/particles.min.js"></script>
   <script src="./public/js/portfolio.js"></script>
+  <script src="./public/js/timeline.js"></script>
 
 </body>
 
