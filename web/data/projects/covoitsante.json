@@ -1,9 +1,9 @@
 {
 	"nom" : "Covoit'Santé",
-	"breve_description" : "",
+	"img" : "./public/img/covoitsante.png",
 	"le_projet":"Les patients de la clinique Esquirol Saint-Hilaire à Agen ainsi que son personnel rencontraient des difficultés avec le parking puisque celui-ci était trouvant saturé. C'est pourquoi, ils nous ont confié la réalisation d'un site de covoiturage afin de pouvoir désengorger le parking tout en mutualisant les transports et en favorisant le lien social. La plateforme web mise en service permet aux utilisateurs de proposer un trajet entre leur domicile et la clinique et inversement. Toute personne peut alors réserver sa place et effectuer le trajet. Pour chaque trajet, le conducteur peut également paramétrer le détour maximum réalisable, la possibilité de véhiculer des personnes handicapés... Une fois le trajet réalisé, les passagers peuvent laisser un avis ainsi qu'un commentaire au conducteur et inversement. En effectuant le trajet avec sa voiture, ce dernier cumule des points lui offrant des avantages comme la gratuité du parking. ",
 	"ma_contribution":"Dans un premier temps j'ai contribué à ce projet durant mon semestre 4 sur : <ul><li>Conception de la base de données.</li><li>Réalisation de plusieurs pages du site.</li><li>Développement de l'algorithme de recherche des trajets en tenant compte des détours.</li><li>Implémentation de l'API Google Maps (carte et suggestion de localisation)</li></ul>Dans un second temps, j'ai participé à ce projet en tant que développeur pour le compte de la junior entreprise de l'école : <ul><li>Mise à jour de la Base de données.</li><li>Aide à la refonte graphique du site.</li><li>Mise en place du système de commentaires et d'avis.</li><li>Développement de l'interface d'administration.</li></ul>",
-	"bilan":"",
+	"bilan":"Ce projet a été fort intéressant car il m'a permis d'énormément progresser dans la modélisation de base de données et dans le développement de fonctionalités faisant appel à des API externes, ici Google Maps. En outre, poursuivre ce projet grâce à la junior entreprise Start'INTECH a été l'ooportunité pour moi de découvrir ce qui s'apparente au métier de développeur freelance, ce qui m'a fait grandir en maturité.",
 	"competences" : [
 		{
 			"id": "git",
