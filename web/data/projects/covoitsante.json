@@ -10,12 +10,8 @@
 			"name":"Git"
 		}, 
 		{
-			"id": "js",
-			"name": "JavaScript"
-		},
-		{
 			"id":"web",
-			"name":"PHP/HTML/CSS"
+			"name":"Technologies Web"
 		},
 		{
 			"id":"db",

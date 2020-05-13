@@ -10,16 +10,12 @@
 			"name":"Git"
 		}, 
 		{
-			"id": "js",
-			"name": "Javascript"
+			"id": "web",
+			"name": "Technologies Web"
 		},
 		{
 			"id":"database",
 			"name":"Base de données"
-		},
-		{
-			"id":"web",
-			"name":"PHP/HTML/CSS"
 		},
 		{
 			 "id":"polyvalence",

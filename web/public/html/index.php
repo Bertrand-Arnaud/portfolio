@@ -232,11 +232,18 @@
 
 			<div class="modal-header">
 		  <!-- Modal Header -->
-				<div class="btn-group">
-				<button id="prevButton" class="btn btn-primary" type="button" onclick="OnPressPrevButton()" disabled><</button></button>
-				<button id="nextButton" class="btn btn-primary" type="button" onclick="OnPressNextButton()" disabled>></button></button>
-				</div>
+      <div class="container col-xs-12">
+				<div class="row align-items-center">
+          <div class="col-md-1 btn-group">
+            <button id="prevButton" class="btn btn-primary" type="button" onclick="OnPressPrevButton()" disabled><</button></button>
+            <button id="nextButton" class="btn btn-primary" type="button" onclick="OnPressNextButton()" disabled>></button></button>
+          </div>
+          <div class="col-md-10">
+            <h2 id="modal-title" class="text-center">Title</h2>
+          </div>
+        </div>
 				<!--<button type="button" class="close btn-right" data-dismiss="modal">&times;</button>-->
+        </div>
 			</div>
 			
 		  <!-- Modal body -->

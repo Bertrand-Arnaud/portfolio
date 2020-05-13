@@ -53,8 +53,10 @@ $router->post('/get_project', function()
 			{
 				$project = file_get_contents($GLOBALS["PROJECT_PATH"] . $file);
 				$project = json_decode($project, true);
-				$html = Inc::html("public/html/project.php", $project);
-				echo $html;
+				$return["html"] = Inc::html("public/html/project.php", $project);
+				$return["title"] = $project["nom"];
+
+				echo json_encode($return);
 			}
 		}
 	}
@@ -72,8 +74,10 @@ $router->post('/get_skill', function()
 			{
 				$skill = file_get_contents($GLOBALS["SKILLS_PATH"] . $file);
 				$skill = json_decode($skill, true);
-				$html = Inc::html("public/html/skill.php", $skill);
-				echo $html;
+				$return["html"] = Inc::html("public/html/skill.php", $skill);
+				$return["title"] = $skill["nom"];
+
+				echo json_encode($return);
 			}
 		}
 	}

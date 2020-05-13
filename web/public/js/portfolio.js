@@ -119,13 +119,15 @@ class Navigation {
     this.datas.push(data)
     this.currentIndex = this.datas.length - 1;
     this.updateUI();
+    $('#myModal').animate({ scrollTop: 0 }, 400);
 	}
 	
 	prev() {
     if (this.currentIndex > 0 && this.datas.length > 1)
     {
       this.currentIndex--;
-      $(".modal-body").html(this.datas[this.currentIndex]);
+      $(".modal-body").html(this.datas[this.currentIndex]["html"]);
+      $("#modal-title").text(this.datas[this.currentIndex]["title"]);
       this.updateUI();
     }
   }
@@ -133,7 +135,8 @@ class Navigation {
   next() {
     if (this.currentIndex < this.datas.length && this.datas.length > 1) {
       this.currentIndex++;
-      $(".modal-body").html(this.datas[this.currentIndex]);
+      $(".modal-body").html(this.datas[this.currentIndex]["html"]);
+      $("#modal-title").text(this.datas[this.currentIndex]["title"]);
       this.updateUI();
     }
   }
@@ -181,13 +184,14 @@ function openProject(projectID)
 					"id": projectID,
 					"isAJAX" : "true"
 				  },
-			dataType: "html"
+			dataType: "json"
 		}).done(function(data)
 		{
 			if (data != null)
 			{
 				$("#myModal").modal("show");
-				$(".modal-body").html(data);
+				$(".modal-body").html(data["html"]);
+				$("#modal-title").text(data["title"]);
 				modalNavigation.push(data);
 			}
 			else
@@ -212,13 +216,14 @@ function openSkill(skillID)
 					"id": skillID,
 					"isAJAX" : "true"
 				  },
-			dataType: "html"
+			dataType: "json"
 		}).done(function(data)
 		{
 			if (data != null)
 			{
         $("#myModal").modal("show");
-        $(".modal-body").html(data);
+        $(".modal-body").html(data["html"]);
+				$("#modal-title").text(data["title"]);
         modalNavigation.push(data);
 			}
 			else

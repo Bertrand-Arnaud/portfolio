@@ -1,7 +1,7 @@
 <div class="container">
 	<div class="row">
 		<div class="col-xs-12">
-			<h1><?php echo $p["nom"]; ?></h1>
+			<img class="img-fluid" src="<?php echo $p["img"]; ?>"/>
 			<h2>Contexte</h2>
 			<p class="text-justify"><?php echo $p["le_projet"];?></p>
 			<h2>Ma Contribution</h2>
