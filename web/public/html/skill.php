@@ -5,7 +5,7 @@
 			<p class="text-justify"><?php echo $p["definition"];?></p>
 			<h2>Comment je l'ai mis oeuvre</h2>
 			<p class="text-justify"><?php echo $p["comment"];?></p>
-			<h2>La place dans mon projet profesionnel</h2>
+			<h2>La place dans mon projet professionnel</h2>
 			<p class="text-justify"><?php echo $p["pourquoi"];?></p>
 			<?php 
 				foreach($p["projects"] as $project)
