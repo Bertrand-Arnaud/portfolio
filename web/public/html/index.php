@@ -73,10 +73,10 @@
         <div class="subheading mb-5">Toulouse
           <a href="mailto:b.arnaud@intech-sud.fr">b.arnaud@intech-sud.fr</a>
         </div>
-        <p class="lead mb-5">Alternant en développement logiciel, j'exerce et développe mes compétences au sein de la branche avionique du groupe Thales. En parallèle, je poursuis mon cursus étudiant en 5ème année à IN'TECH Sud.</p> 
+        <p class="lead mb-5">Bienvenue sur mon Portfolio ! Mon nom est Bertrand ARNAUD, j'ai 25 ans et je prépare un titre RNCP niveau 1 Expert en Ingénierie du Logiciel au sein de l'école IN'TECH SUd à Agen. Dans le même temps, je termine mes deux années d'alternance au sein du groupe Thales Avionics à Toulouse qui m'a donné l'opportunité de développer mes compétences sur des projets innovants.</p> 
 
         <p class="lead mb-5 text-justify">Passionné par l'innovation, je suis animé par différents sujets et technologies tels que la réalité augmentée, Unity3D, l'intelligence artificielle ou  encore la cybersécurité.
-          C'est notamment dans le domaine de la 3D que je souhaite poursuivre ma carrière en tant qu'ingénieur développement 3D. Je porte une attention toute particulière à la réalité augmentée, mixte et virtuelle, supports d'innovation qui permettent de laisser libre cours à sa créativité et à son innovation. A terme, j'ambitionne de devenir experts technique dans ces tehnologies ou bien chef de projet innovation/3D.
+          C'est notamment dans le domaine de la 3D que je souhaite poursuivre ma carrière en tant qu'ingénieur développement 3D. Je porte une attention toute particulière à la réalité augmentée, mixte et virtuelle, supports d'innovation qui permettent de laisser libre cours à sa créativité. A terme, j'ambitionne de devenir expert technique dans ces technologies ou bien chef de projet innovation/3D.
         </p>
         <div class="social-icons">
           <a href="https://www.linkedin.com/in/bertrand-arnaud-667b28b5/">
@@ -219,7 +219,7 @@
       <div class="w-100">
         <h2 class="mb-5">Témoignages</h2>
         <blockquote class="quote-card">
-          <p>Suspendisse dolor est, venenatis eu libero eget, eleifend fermentum mauris. Donec sit amet sem in lacus aliquet tincidunt eu a mi. Sed purus nibh, viverra eget tellus tristique, sollicitudin tincidunt metus. Vestibulum eget leo purus. In ultricies auctor odio a tincidunt. Donec lacinia posuere nisi non tempor. Maecenas facilisis dui eros. Proin mauris ligula, dapibus at laoreet et, faucibus molestie quam. Nunc vehicula lacus quam, a accumsan justo euismod id. Curabitur egestas lectus sed malesuada facilisis. Praesent quis porttitor sem. Aenean in ligula tortor. Nulla rutrum euismod diam, ac consequat nibh sollicitudin vel. Praesent tristique libero quis eros interdum, in pretium nibh convallis. Sed quis sapien interdum sem porta vulputate sed ac lacus. </p>
+          <p>J’ai beaucoup apprécié travailler avec Bertrand pendant ces 2 dernières années. D’une nature discrète, il maîtrise néanmoins son domaine, ce qui m’a permis de me reposer complètement sur ses compétences techniques. Il est parfaitement autonome pour trouver l’information, se former sur des techniques préalablement inconnues pour résoudre un problème. Bertrand est également très à l’écoute des attentes utilisateurs lui permettant ainsi de proposer des solutions pertinentes. Il est posé, et rigoureux, ce qui sont des qualités qui me semblent essentielles pour un développeur. Cela lui permet notamment de livrer des 1ères versions logicielles avec, rapidement, un bon niveau de robustesse, ce qui n’est pas si courant, ni évident. Enfin, il respecte ses engagements ce qui est très important en entreprise. Si j’en avais la possibilité, je l’embaucherais sur le champ !</p>
           <cite>Bryce BILLIERE - Tuteur de stage et d'alternance Thales Avionics</cite>
         </blockquote>
       </div>
