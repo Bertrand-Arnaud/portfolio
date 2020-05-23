@@ -27,7 +27,9 @@
   <link href="./public/css/resume.css" rel="stylesheet">
   <link href="./public/css/blockquotes.css" rel="stylesheet">
   <link href="./public/css/timeline.css" rel="stylesheet">
-  <link href="./public/css/animations.css" rel="stylesheet">
+
+  <!-- Animations On Scroll-->
+  <link href="./public/vendor/aos/css/aos.css" rel="stylesheet">
 
 </head>
 
@@ -277,6 +279,8 @@
   <script src="./public/js/portfolio.js"></script>
   <script src="./public/js/timeline.js"></script>
 
+  <!-- Animations On Scroll -->
+  <script src="./public/vendor/aos/js/aos.js"></script>
 </body>
 
 </html>
