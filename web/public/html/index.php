@@ -281,7 +281,10 @@
 
   <!-- Animations On Scroll -->
   <script src="./public/vendor/aos/js/aos.js"></script>
-  <script>AOS.init();</script>
+  <script>AOS.init({
+    duration: 1200,
+    });
+   </script>
 </body>
 
 </html>

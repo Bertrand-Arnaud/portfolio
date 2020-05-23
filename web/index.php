@@ -30,7 +30,7 @@ $router->get('/', function()
 			$project["id"] = $fileNameExploded[0];
 			$project["brief"] = substr($project["le_projet"], 0, 120) . "...";
 			$project["col"] = sizeof($projects) - 1 == $i ? "col-xs-12 col-sm-6 col align-self-center" : "col-sm-6 col-xs-12";
-			$project["animation"] = "data-aos=\"fade-down-right\"";
+			$project["animation"] = $i % 2 == 0 ? "data-aos=\"fade-right\"" : "data-aos=\"fade-left\"";
 			$projects_html .= Inc::html("public/html/project_component.php", $project);
 			if ($i % 2 == 1)
 			{
