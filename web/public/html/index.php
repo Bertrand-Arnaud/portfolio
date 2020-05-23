@@ -281,6 +281,7 @@
 
   <!-- Animations On Scroll -->
   <script src="./public/vendor/aos/js/aos.js"></script>
+  <script>AOS.init();</script>
 </body>
 
 </html>
