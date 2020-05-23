@@ -27,6 +27,7 @@
   <link href="./public/css/resume.css" rel="stylesheet">
   <link href="./public/css/blockquotes.css" rel="stylesheet">
   <link href="./public/css/timeline.css" rel="stylesheet">
+  <link href="./public/css/animations.css" rel="stylesheet">
 
 </head>
 
