@@ -1,5 +1,7 @@
 {
-    "nom" : "Autonomie",
+	"nom" : "Autonomie",
+	"type" : "transverse",
+	"img" : "./public/img/autonomie.png",
     "definition" : "Il s'agit là de la capacité à avancer seul sur un sujet sans avoir recours à l'aide d'autres personnes. C'est une qualité indispensable à un développeur pour se débrouiller seul lorsque l'on se retrouve bloqué sur une problématique.",
     "comment" : "À de nombreuses reprises à IN'TECH j'ai dû faire preuve d'autonomie avec mes collègues étudiants afin de mener à bien nos projets. Bien que les encadrants étaient présents pour nous aider et nous orienter, il était aussi nécessaire d'apprendre à être autonome pour avancer rapidement et comprendre au mieux ce que nous réalisons. Au cours de mes expériences professionnelles également j'ai su faire preuve d'autonomie. En effet, lors d'un stage de deux mois au sein de l'entreprise UPSA, j'étais en total autonomie pour développer et mettre en place de A à Z une solution simplifiant et optimisant le traitement ainsi que l'analyse d'indicateurs. J'ai poursuivi l'apprentissage de cette caractéristique en stage puis en alternance au sien de THALES avec le projet FACETT que j'ai développé en autonomie complète avec mon tuteur.",
     "pourquoi" : "C'est une compétence transverse qui est essentielle lorsque l'on souhaite travailler dans le domaine de l'innovation. En effet, très souvent il faut savoir faire preuve d'autonomie pour appréhender de nouveau concept et s'auto-former à de nouvelles technologies. C'est également un atout conséquent pour évoluer sur des projets où le travail d'équipe est moins important. Il est donc primordial de savoir allier les deux : autonomie et travail d'équipe pour faire carrière dans le domaine de la RA.",

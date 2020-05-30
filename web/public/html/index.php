@@ -76,7 +76,7 @@
         <div class="subheading mb-5">Toulouse
           <a href="mailto:b.arnaud@intech-sud.fr">b.arnaud@intech-sud.fr</a>
         </div>
-        <p class="lead mb-5 text-justify">Bienvenue sur mon Portfolio ! Mon nom est Bertrand ARNAUD, j'ai 25 ans et je prépare un titre RNCP niveau 1 Expert en Ingénierie du Logiciel au sein de l'école IN'TECH SUd à Agen. Dans le même temps, je termine mes deux années d'alternance au sein du groupe Thales Avionics à Toulouse qui m'a donné l'opportunité de développer mes compétences sur des projets innovants.</p> 
+        <p class="lead mb-5 text-justify">Bienvenue sur mon Portfolio ! Mon nom est Bertrand ARNAUD, j'ai 25 ans et je prépare un titre RNCP niveau 1 Expert en Ingénierie du Logiciel au sein de l'école IN'TECH Sud à Agen. Dans le même temps, je termine mes deux années d'alternance au sein du groupe Thales Avionics à Toulouse qui m'a donné l'opportunité de développer mes compétences sur des projets innovants.</p> 
 
         <p class="lead mb-5 text-justify">Passionné par l'innovation, je suis animé par différents sujets et technologies tels que la réalité augmentée, Unity3D, l'intelligence artificielle ou  encore la cybersécurité.
           C'est notamment dans le domaine de la 3D que je souhaite poursuivre ma carrière en tant qu'ingénieur développement 3D. Je porte une attention toute particulière à la réalité augmentée, mixte et virtuelle, supports d'innovation qui permettent de laisser libre cours à sa créativité. A terme, j'ambitionne de devenir expert technique dans ces technologies ou bien chef de projet innovation/3D.
@@ -100,7 +100,7 @@
         <p>Tout au long de mes cinq ans de cursus, à la fois à l'école, lors de stage ou encore en alternance, j'ai développé de nombreuses compétences me permettant d'accomplir mon projet professionnel. 
         Que ce soit des compétences purement techniques ou bien des compétences transverses, ce bagage complet que je me suis créé et qui m'est propre est en adéquation avec mes choix de carrière afin de répondre aux besoins des entreprises.</p>
         <div class="subheading mb-3">Compétences techniques</div>
-        <div class="container">
+        <!--<div class="container">
           <ul class="list-inline">
             <li class="list-inline-item"><button onclick="openSkill('csharp')" class="btn btn-inline btn-custom">C#</button></li>
             <li class="list-inline-item"><button onclick="openSkill('unity')" class="btn btn-custom">Unity</button></li>
@@ -108,6 +108,11 @@
             <li class="list-inline-item"><button onclick="openSkill('database')" class="btn btn-custom">Base de données</button></li>
             <li class="list-inline-item"><button onclick="openSkill('web')" class="btn btn-custom">Technologies Web</button></li>
           </ul>
+        </div>-->
+        <div class="container">
+          <div class="row">
+            <?php echo $skills_html;?>
+          </div>
         </div>
         <div class="subheading mb-3">Compétences transverses</div>
         <div class="container">

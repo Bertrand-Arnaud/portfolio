@@ -40,6 +40,27 @@ $router->get('/', function()
 		$i++;
 	}
 	$projects_html .= "</div>";
+
+	$skills_html = "";
+	$skills = scandir($GLOBALS["SKILLS_PATH"]);
+	$i = 0;
+	foreach($skills as $file)
+	{
+		if (strpos($file, ".json"))
+		{
+			$skill = file_get_contents($GLOBALS["SKILLS_PATH"] . $file);
+			$skill = json_decode($skill, true);
+			if ($skill["type"] == "technique")
+			{
+				$fileNameExploded = explode('.', $file);
+				$skill["id"] = $fileNameExploded[0];
+				$skill["brief"] = substr($skill["definition"], 0, 120) . "...";
+				$skill["col"] = "col-md-2";
+				$skills_html .= Inc::html("public/html/skill_component.php", $skill);
+				$i++;
+			}
+		}
+	}
 	include_once("./public/html/index.php");
 });
 
