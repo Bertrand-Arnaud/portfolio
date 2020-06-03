@@ -100,7 +100,7 @@
         <p>Tout au long de mes cinq ans de cursus, à la fois à l'école, lors de stage ou encore en alternance, j'ai développé de nombreuses compétences me permettant d'accomplir mon projet professionnel. 
         Que ce soit des compétences purement techniques ou bien des compétences transverses, ce bagage complet que je me suis créé et qui m'est propre est en adéquation avec mes choix de carrière afin de répondre aux besoins des entreprises.</p>
         <div class="subheading mb-3">Compétences techniques</div>
-        <!--<div class="container">
+        <div class="container">
           <ul class="list-inline">
             <li class="list-inline-item"><button onclick="openSkill('csharp')" class="btn btn-inline btn-custom">C#</button></li>
             <li class="list-inline-item"><button onclick="openSkill('unity')" class="btn btn-custom">Unity</button></li>
@@ -108,11 +108,6 @@
             <li class="list-inline-item"><button onclick="openSkill('database')" class="btn btn-custom">Base de données</button></li>
             <li class="list-inline-item"><button onclick="openSkill('web')" class="btn btn-custom">Technologies Web</button></li>
           </ul>
-        </div>-->
-        <div class="container">
-          <div class="row">
-            <?php echo $skills_html;?>
-          </div>
         </div>
         <div class="subheading mb-3">Compétences transverses</div>
         <div class="container">
@@ -159,10 +154,9 @@
             </li>
             <li class="right">
               <div>
-                <time>2018</time>Thales Avionics - Stage de 6 mois développement logiciel Unity3D.
+                <time>2018</time>Thales Avionics - Stage de 6 mois développement logiciel Unity 3D.
               </div>
             </li>
-
             <li class="right">
               <div>
                 <time>2017</time>UPSA Agen - Stage de deux mois développement solution informatique VBA.
@@ -170,54 +164,21 @@
             </li>
             <li class="left">
               <div>
-                <time>2015-2020</time>IN'TECH Sud Agen. Apprentissage de l'informatique grâce à une pédagogie par projet : Projet informatique en relation directe avec des professionnels - Projet de formation humaine afin de développer des compétences telles que la communication, l'organisation d’événements ou encore la gestion de budget.
+                <time>2015-2020</time>IN'TECH Sud Agen - Titre RNCP niveau 1 Expert en Ingénierie du Logiciel.
               </div>
             </li>
             <li class="left">
               <div>
-                <time>2015</time>Ecole 42 Paris - Participation à la piscine de Juillet 2015 - Apprentissage de la programmation en C (base et avancée), Linux et Git.
+                <time>2015</time>Ecole 42 Paris - Participation à la "piscine" de Juillet 2015 (1 mois).
               </div>
             </li>
             <li class="left">
               <div>
-                <time>2012-2014</time>DUT Génie biologique option Industries Agroalimentaires et Biologiques.
+                <time>2012-2014</time>IUT Montpellier - DUT Génie biologique option Industries Agroalimentaires et Biologiques.
               </div>
             </li>
-            <!--<li>
-              <div>
-                <time>1956</time> In mattis elit vitae odio posuere, nec maximus massa varius. Suspendisse varius volutpat mattis. Vestibulum id magna est.
-              </div>
-            </li>-->
           </ul>
         </section>
-
-
-
-        <!--<div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
-          <div class="resume-content">
-            <h3 class="mb-0">IN'TECH Sud</h3>
-            <div class="subheading mb-3">Titre RNCP d'expert en Ingénierie du logiciel</div>
-            <div>Apprentissage de l'informatique grâce à une pédagogie par projet : Projet informatique en relation directe avec des professionnels - Projet de formation humaine afin de développer des compétences telles que la communication, l'organisation d’événements ou encore la gestion de budget.</div>
-          </div>
-          <div class="resume-date text-md-right">
-            <span class="text-primary">Septembre 2015 - Septembre 2020</span>
-          </div>
-        </div>
-
-        <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
-          <div class="resume-content">
-            <h3 class="mb-0">Thales Avionics</h3>
-            <div class="subheading mb-3">Alternant en ingénierie du logiciel - Unity/C#</div>
-            <div>Au sein du hub innovation, contribution au développement de divers projets au travers de mes compétences Unity/C#. Parmis ces projets :</div>
-            <ul>
-              <li>Outil de conception et présentation des suites avioniques en 2D et 3D.</li>
-              <li>Environnement de simulation 3D pour hélicoptères et drones.</li>
-            </ul>
-          </div>
-          <div class="resume-date text-md-right">
-            <span class="text-primary">Septembre 2018 - Septembre 2020</span>
-          </div>
-        </div>-->
       </div>
     </section>
 
