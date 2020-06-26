@@ -16,7 +16,7 @@
   <!-- Custom fonts for this template -->
   <link href="https://fonts.googleapis.com/css?family=Saira+Extra+Condensed:500,700" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Muli:400,400i,800,800i" rel="stylesheet">
-  <link href="./public/vendor/fontawesome-free/css/all.min.css" rel="stylesheet">
+  <link href="./public/vendor/fontawesome-free/css/all.css" rel="stylesheet">
   <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
 
   <link rel="icon" href="./public/img/icon-5.png" type="image/gif" >
@@ -30,6 +30,11 @@
 
   <!-- Animations On Scroll-->
   <link href="./public/vendor/aos/css/aos.css" rel="stylesheet">
+
+  <!-- Image gallery -->
+  <link href="./public/vendor/baguetteBox/baguetteBox.min.css" rel="stylesheet">
+  <link href="./public/vendor/baguetteBox/grid-gallery.css" rel="stylesheet">
+
 
 </head>
 
@@ -82,11 +87,14 @@
           C'est notamment dans le domaine de la 3D que je souhaite poursuivre ma carrière en tant qu'ingénieur développement 3D. Je porte une attention toute particulière à la réalité augmentée, mixte et virtuelle, supports d'innovation qui permettent de laisser libre cours à sa créativité. A terme, j'ambitionne de devenir expert technique dans ces technologies ou bien chef de projet innovation/3D.
         </p>
         <div class="social-icons">
-          <a href="https://www.linkedin.com/in/bertrand-arnaud-667b28b5/">
+          <a target="_blank" href="https://www.linkedin.com/in/bertrand-arnaud-667b28b5/">
             <i class="fab fa-linkedin-in"></i>
           </a>
-          <a href="https://github.com/Bertrand-Arnaud">
+          <a target="_blank" href="https://github.com/Bertrand-Arnaud">
             <i class="fab fa-github"></i>
+          </a>
+          <a target="_blank" href="./public/document/cv.pdf" download="CV Bertrand ARNAUD.pdf">
+            <i class="fa fa-address-book"></i>
           </a>
         </div>
       </div>
@@ -193,13 +201,13 @@
         </blockquote>
       </div>
     </section>
-  </div>
-  
-  <div class="modal" id="myModal" role="document">
+    </div>
+    
+    <div class="modal" id="myModal" role="document">
 	  <div class="modal-dialog modal-lg">
-		<div class="modal-content">
+      <div class="modal-content">
 
-			<div class="modal-header">
+        <div class="modal-header">
 		  <!-- Modal Header -->
       <div class="container col-xs-12">
 				<div class="row align-items-center">
@@ -219,38 +227,42 @@
 		  <div class="modal-body">
 			Modal body..
 			
-		  </div>
+    </div>
+    
+    <!-- Modal footer -->
+    <div class="modal-footer">
+      <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+    </div>
+    
+  </div>
+</div>
+</div>
+<!-- Bootstrap core JavaScript -->
+<script src="./public/vendor/jquery/jquery.min.js"></script>
+<script src="./public/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
 
-		  <!-- Modal footer -->
-		  <div class="modal-footer">
-			<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-		  </div>
-
-		</div>
-	  </div>
-	</div>
-  <!-- Bootstrap core JavaScript -->
-  <script src="./public/vendor/jquery/jquery.min.js"></script>
-  <script src="./public/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-
-  <!-- Bootstrap Toggle JS -->
+<!-- Bootstrap Toggle JS -->
   <script src="./public/vendor/bootstrap-toggle/bootstrap2-toggle.min.js"></script>
-
+  
   <!-- Plugin JavaScript -->
   <script src="./public/vendor/jquery-easing/jquery.easing.min.js"></script>
-
+  
   <!-- Custom scripts for this template -->
   <script src="./public/js/resume.min.js"></script>
   <script src="./public/js/particles.min.js"></script>
   <script src="./public/js/portfolio.js"></script>
   <script src="./public/js/timeline.js"></script>
-
+  
   <!-- Animations On Scroll -->
   <script src="./public/vendor/aos/js/aos.js"></script>
   <script>AOS.init({
     duration: 1200,
-    });
+  });
    </script>
+
+<!-- Image gallery -->
+<script src="./public/vendor/baguetteBox/baguetteBox.min.js"></script>
+
 </body>
 
 </html>
