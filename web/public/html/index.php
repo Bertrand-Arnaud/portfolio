@@ -199,6 +199,11 @@
           <p class="text-justify">J’ai beaucoup apprécié travailler avec Bertrand pendant ces 2 dernières années. D’une nature discrète, il maîtrise néanmoins son domaine, ce qui m’a permis de me reposer complètement sur ses compétences techniques. Il est parfaitement autonome pour trouver l’information, se former sur des techniques préalablement inconnues pour résoudre un problème. Bertrand est également très à l’écoute des attentes utilisateurs lui permettant ainsi de proposer des solutions pertinentes. Il est posé, et rigoureux, ce qui sont des qualités qui me semblent essentielles pour un développeur. Cela lui permet notamment de livrer des 1ères versions logicielles avec, rapidement, un bon niveau de robustesse, ce qui n’est pas si courant, ni évident. Enfin, il respecte ses engagements ce qui est très important en entreprise. Si j’en avais la possibilité, je l’embaucherais sur le champ !</p>
           <cite>Bryce BILLIERE - Tuteur de stage et d'alternance Thales Avionics</cite>
         </blockquote>
+        <br>
+        <blockquote class="quote-card">
+          <p class="text-justify">Au cours de ses 5 années de formation Bertrand a su faire preuve de sérieux, d'implication et de beaucoup de curiosité pour toutes les facettes de l'informatique et de son futur métier de développeur. Exigeant vis à vis de lui même et des autres il a montré de la maturité tout au long de ses études. L'avoir comme étudiant restera un très bon souvenir d'enseignant et je n'ai aucun doute qu'il est et restera un excellent professionnel.</p>
+          <cite>Jonathan PASCALIE - Doctorant & Enseignant Ingénierie du logiciel IN'TECH SUD  - Architecte Logiciel chez Fonroche</cite>
+        </blockquote>
       </div>
     </section>
     </div>
