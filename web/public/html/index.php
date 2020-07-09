@@ -81,11 +81,11 @@
         <div class="subheading mb-5">Toulouse
           <a href="mailto:b.arnaud@intech-sud.fr">b.arnaud@intech-sud.fr</a>
         </div>
-        <p class="lead mb-5 text-justify">Bienvenue sur mon Portfolio ! Mon nom est Bertrand ARNAUD, j'ai 25 ans et je prépare un titre RNCP niveau 1 Expert en Ingénierie du Logiciel au sein de l'école IN'TECH Sud à Agen. Dans le même temps, je termine mes deux années d'alternance au sein du groupe Thales Avionics à Toulouse qui m'a donné l'opportunité de développer mes compétences sur des projets innovants.</p> 
+        <p class="lead mb-5 text-justify">Bienvenue sur mon Portfolio ! Mon nom est Bertrand ARNAUD, j'ai 25 ans et je prépare un titre RNCP niveau 7 Expert en Ingénierie du Logiciel au sein de l'école IN'TECH Sud à Agen. Dans le même temps, je termine mes deux années d'alternance au sein du groupe Thales Avionics à Toulouse qui m'a donné l'opportunité de développer mes compétences sur des projets innovants.</p> 
 
-        <p class="lead mb-5 text-justify">Passionné par l'innovation, je suis animé par différents sujets et technologies tels que la réalité augmentée, Unity3D, l'intelligence artificielle ou  encore la cybersécurité.
-          C'est notamment dans le domaine de la 3D que je souhaite poursuivre ma carrière en tant qu'ingénieur développement 3D. Je porte une attention toute particulière à la réalité augmentée, mixte et virtuelle, supports d'innovation qui permettent de laisser libre cours à sa créativité. A terme, j'ambitionne de devenir expert technique dans ces technologies ou bien chef de projet innovation/3D.
-        </p>
+        <p class="lead mb-5 text-justify">Passionné par l'informatique depuis toujours, mon cursus au sein de IN'TECH m'a donné le goût du développement et au fil des projets et de mes expériences j'ai développé un réel intéret pour l'innovation. Polyvalent, j'apprécie découvrir de nouvelles technologies et je suis animé par différents sujets et technologies tels que la réalité augmentée, Unity3D, l'intelligence artificielle ou  encore la cybersécurité.
+        C'est notamment dans le domaine de la 3D que je souhaite poursuivre ma carrière en tant qu'ingénieur développement 3D.</p>
+        <p class="lead mb-5 text-justify">C'est avec grand plaisir que je vous invite à explorer mon portfolio pour avoir une vue détaillée des compétences acquises tout au long de mon parcours. Enfin, n'hesitez pas à me contacter pour toute question ou pour échanger avec moi !</p>
         <div class="social-icons">
           <a target="_blank" href="https://www.linkedin.com/in/bertrand-arnaud-667b28b5/">
             <i class="fab fa-linkedin-in"></i>
@@ -202,7 +202,7 @@
         <br>
         <blockquote class="quote-card">
           <p class="text-justify">Au cours de ses 5 années de formation Bertrand a su faire preuve de sérieux, d'implication et de beaucoup de curiosité pour toutes les facettes de l'informatique et de son futur métier de développeur. Exigeant vis à vis de lui même et des autres il a montré de la maturité tout au long de ses études. L'avoir comme étudiant restera un très bon souvenir d'enseignant et je n'ai aucun doute qu'il est et restera un excellent professionnel.</p>
-          <cite>Jonathan PASCALIE - Doctorant & Enseignant Ingénierie du logiciel IN'TECH SUD  - Architecte Logiciel chez Fonroche</cite>
+          <cite>Jonathan PASCALIE - Docteur en Génie du logiciel & Enseignant à IN'TECH SUD  - Architecte Logiciel chez Fonroche</cite>
         </blockquote>
       </div>
     </section>
